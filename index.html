@@ -1,1 +1,86 @@
-<h1>Hello guys</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Box</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+		body {
+			background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/19145.jpg');
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+		}
+
+		.container {
+			background-color: aliceblue;
+			font-family: 'Courier New', Courier, monospace;
+			opacity: 90%;
+			width: 1000px;
+			height: 400px;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+        .profileBox {
+            background-color: beige;
+            text-align: center;
+            width: 400px;
+            height: 200px;
+            align-items: center;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #name {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .social-buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .social-buttons .btn {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+
+        .social-buttons .facebook { background-color: #3b5998; }
+        .social-buttons .twitter { background-color: #1da1f2; }
+        .social-buttons .instagram { background-color: #e4405f; }
+        .social-buttons .youtube { background-color: #ff0000; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profileBox">
+            <div id="name">Stefanita Ionita</div>
+            <div class="social-buttons">
+                <a href="https://facebook.com" class="btn facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="btn twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" class="btn instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com" class="btn youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
